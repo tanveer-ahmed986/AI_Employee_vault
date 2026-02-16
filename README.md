@@ -10,11 +10,11 @@ A local-first, autonomous AI Employee that lives inside an Obsidian vault. Drop 
 
 The system has three components working together:
 
-| Component | Role | Tool |
-|-----------|------|------|
-| **The Brain** | Reads tasks, makes plans, writes summaries | Claude Code |
-| **The Memory / GUI** | Stores everything as files, provides dashboard | Obsidian |
-| **The Eyes** | Watches for new files dropped into /Inbox | Python (watchdog) |
+| Component            | Role                                           | Tool              |
+| -------------------- | ---------------------------------------------- | ----------------- |
+| **The Brain**        | Reads tasks, makes plans, writes summaries     | Claude Code       |
+| **The Memory / GUI** | Stores everything as files, provides dashboard | Obsidian          |
+| **The Eyes**         | Watches for new files dropped into /Inbox      | Python (watchdog) |
 
 **Agent Skills** are reusable SKILL.md instruction files that make Claude consistent. Each skill lives in `/Skills/` and contains step-by-step instructions for a specific task type (summarizing files, processing tasks, summarizing PDFs, etc.).
 
@@ -60,12 +60,12 @@ AI_Employee_vault/
 
 ### Prerequisites
 
-| Tool | Version | Purpose |
-|------|---------|---------|
-| Obsidian | Latest | Vault GUI and file management |
-| Python | 3.13+ | Runs the watcher script |
-| Node.js | v24+ | Required for Claude Code |
-| Claude Code | Latest | AI brain (`npm install -g @anthropic/claude-code`) |
+| Tool        | Version | Purpose                                            |
+| ----------- | ------- | -------------------------------------------------- |
+| Obsidian    | Latest  | Vault GUI and file management                      |
+| Python      | 3.13+   | Runs the watcher script                            |
+| Node.js     | v24+    | Required for Claude Code                           |
+| Claude Code | Latest  | AI brain (`npm install -g @anthropic/claude-code`) |
 
 ### Install
 
@@ -120,11 +120,11 @@ Use skills from /Skills/. Update Dashboard.md." \
 
 ## Agent Skills
 
-| Skill | Location | Purpose |
-|-------|----------|---------|
-| Process Task | `/Skills/Process Task/SKILL.md` | General task processing workflow |
-| Summarize File | `/Skills/Summarize File/SKILL.md` | Summarize text/document files |
-| Summarize PDF | `/Skills/Summarize PDF/SKILL.md` | PDF-specific summarization with multi-page support |
+| Skill          | Location                          | Purpose                                            |
+| -------------- | --------------------------------- | -------------------------------------------------- |
+| Process Task   | `/Skills/Process Task/SKILL.md`   | General task processing workflow                   |
+| Summarize File | `/Skills/Summarize File/SKILL.md` | Summarize text/document files                      |
+| Summarize PDF  | `/Skills/Summarize PDF/SKILL.md`  | PDF-specific summarization with multi-page support |
 
 ## Security
 
