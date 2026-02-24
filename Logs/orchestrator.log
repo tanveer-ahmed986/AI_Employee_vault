@@ -1,0 +1,250 @@
+2026-02-18 00:48:12,985 [mcp_manager] INFO: Loaded 1 MCP server(s) from settings: ['email-mcp']
+2026-02-18 10:17:20,249 [orchestrator] INFO: ==================================================
+2026-02-18 10:17:20,250 [orchestrator] INFO:   AI Employee Orchestrator — Silver Tier (Phase 1: Gmail)
+2026-02-18 10:17:20,250 [orchestrator] INFO:   DRY_RUN=False  ENABLED_WATCHERS=['inbox', 'gmail', 'approval']
+2026-02-18 10:17:20,251 [orchestrator] INFO: ==================================================
+2026-02-18 10:17:20,277 [mcp_manager] INFO: Loaded 1 MCP server(s) from settings: ['email-mcp']
+2026-02-18 10:17:20,278 [orchestrator] INFO: MCP Manager initialized — registered servers: ['email-mcp']
+2026-02-18 10:17:20,280 [orchestrator] INFO: Launched thread: watcher-InboxWatcher
+2026-02-18 10:17:20,281 [orchestrator] INFO: Starting inbox watcher
+2026-02-18 10:17:20,282 [orchestrator] INFO: Launched thread: watcher-GmailWatcher
+2026-02-18 10:17:20,282 [orchestrator] INFO: Starting gmail watcher
+2026-02-18 10:17:20,282 [watcher.inbox] INFO: inbox watcher starting (interval=5s)
+2026-02-18 10:17:20,284 [watcher.gmail] INFO: gmail watcher starting (interval=60s)
+2026-02-18 10:17:20,284 [orchestrator] INFO: Launched thread: watcher-ApprovalWatcher
+2026-02-18 10:17:20,284 [orchestrator] INFO: Starting approval watcher
+2026-02-18 10:17:20,286 [scheduler] INFO: Scheduler starting
+2026-02-18 10:17:20,286 [orchestrator] INFO: Launched thread: scheduler
+2026-02-18 10:17:20,286 [watcher.approval] INFO: approval watcher starting (interval=10s)
+2026-02-18 10:17:20,287 [scheduler] INFO: Scheduled: briefing@08:00, linkedin@10:00 weekdays, processing every 5 min
+2026-02-18 10:17:20,288 [orchestrator] INFO: All watchers and scheduler running. Press Ctrl+C to stop.
+2026-02-18 10:17:21,427 [googleapiclient.discovery_cache] INFO: file_cache is only supported with oauth2client<4.0.0
+2026-02-18 10:17:25,808 [watcher.gmail] INFO: Found 10 new important email(s)
+2026-02-18 10:17:25,811 [watcher.gmail] INFO: Created action file: 20260218_101725_Email__Qwen3-Coder-Next_available_in_Ollama.md
+2026-02-18 10:17:25,812 [watcher.gmail] INFO: Created action file: 20260218_101725_Email__You_need_to_fix_some_issues_before_your_site_is_ready.md
+2026-02-18 10:17:25,813 [watcher.gmail] INFO: Created action file: 20260218_101725_Email___GitHub__Sudo_email_verification_code.md
+2026-02-18 10:17:25,816 [watcher.gmail] INFO: Created action file: 20260218_101725_Email__Verify_your_email.md
+2026-02-18 10:17:25,818 [watcher.gmail] INFO: Created action file: 20260218_101725_Email__Alexander_Amini_welcomes_you_to_6_S191__Massachusetts.md
+2026-02-18 10:17:25,819 [watcher.gmail] INFO: Created action file: 20260218_101725_Email___IMPORTANT__MIT_Deep_Learning_2026.md
+2026-02-18 10:17:25,822 [watcher.gmail] INFO: Created action file: 20260218_101725_Email__Your_OTP_is_890701.md
+2026-02-18 10:17:25,824 [watcher.gmail] INFO: Created action file: 20260218_101725_Email__Welcome___PIAIC___Certified_Agentic__and_Robotic_AI_E.md
+2026-02-18 10:17:25,826 [watcher.gmail] INFO: Created action file: 20260218_101725_Email__Your_Notion_signup_code.md
+2026-02-18 10:17:25,828 [watcher.gmail] INFO: Created action file: 20260218_101725_Email__Welcome_to_DeepLearning_AI_Short_Courses_.md
+2026-02-18 10:22:20,476 [ai_skills.reasoning_engine] INFO: Processing task: 20260218_101725_Email__Alexander_Amini_welcomes_you_to_6_S191__Massachusetts
+2026-02-18 10:23:09,262 [ai_skills.reasoning_engine] INFO: Plan created: PLAN_20260218_101725_Email__Alexander_Amini_welcomes_you_to_6_S191__Massachusetts.md
+2026-02-18 10:23:09,264 [ai_skills.reasoning_engine] INFO: Moved processed task to: D:\AI_Employee\AI_Employee_vault\Done\20260218_101725_Email__Alexander_Amini_welcomes_you_to_6_S191__Massachusetts.md
+2026-02-18 10:23:09,265 [ai_skills.reasoning_engine] INFO: Processing task: 20260218_101725_Email__Qwen3-Coder-Next_available_in_Ollama
+2026-02-18 10:23:49,926 [ai_skills.reasoning_engine] INFO: Plan created: PLAN_20260218_101725_Email__Qwen3-Coder-Next_available_in_Ollama.md
+2026-02-18 10:23:49,927 [ai_skills.reasoning_engine] INFO: Moved processed task to: D:\AI_Employee\AI_Employee_vault\Done\20260218_101725_Email__Qwen3-Coder-Next_available_in_Ollama.md
+2026-02-18 10:23:49,928 [ai_skills.reasoning_engine] INFO: Processing task: 20260218_101725_Email__Verify_your_email
+2026-02-18 10:24:41,515 [ai_skills.reasoning_engine] INFO: Plan created: PLAN_20260218_101725_Email__Verify_your_email.md
+2026-02-18 10:24:41,515 [ai_skills.reasoning_engine] INFO: Moved processed task to: D:\AI_Employee\AI_Employee_vault\Done\20260218_101725_Email__Verify_your_email.md
+2026-02-18 10:24:41,517 [ai_skills.reasoning_engine] INFO: Processing task: 20260218_101725_Email__Welcome_to_DeepLearning_AI_Short_Courses_
+2026-02-18 10:25:28,910 [ai_skills.reasoning_engine] INFO: Plan created: PLAN_20260218_101725_Email__Welcome_to_DeepLearning_AI_Short_Courses_.md
+2026-02-18 10:25:28,911 [ai_skills.reasoning_engine] INFO: Moved processed task to: D:\AI_Employee\AI_Employee_vault\Done\20260218_101725_Email__Welcome_to_DeepLearning_AI_Short_Courses_.md
+2026-02-18 10:25:28,912 [ai_skills.reasoning_engine] INFO: Processing task: 20260218_101725_Email__Welcome___PIAIC___Certified_Agentic__and_Robotic_AI_E
+2026-02-18 10:26:21,965 [ai_skills.reasoning_engine] INFO: Plan created: PLAN_20260218_101725_Email__Welcome___PIAIC___Certified_Agentic__and_Robotic_AI_E.md
+2026-02-18 10:26:21,966 [ai_skills.reasoning_engine] INFO: Moved processed task to: D:\AI_Employee\AI_Employee_vault\Done\20260218_101725_Email__Welcome___PIAIC___Certified_Agentic__and_Robotic_AI_E.md
+2026-02-18 10:26:21,967 [ai_skills.reasoning_engine] INFO: Processing task: 20260218_101725_Email__Your_Notion_signup_code
+2026-02-18 10:27:10,822 [ai_skills.reasoning_engine] INFO: Plan created: PLAN_20260218_101725_Email__Your_Notion_signup_code.md
+2026-02-18 10:27:10,823 [ai_skills.reasoning_engine] INFO: Moved processed task to: D:\AI_Employee\AI_Employee_vault\Done\20260218_101725_Email__Your_Notion_signup_code.md
+2026-02-18 10:27:10,824 [ai_skills.reasoning_engine] INFO: Processing task: 20260218_101725_Email__Your_OTP_is_890701
+2026-02-18 10:27:59,457 [ai_skills.reasoning_engine] INFO: Plan created: PLAN_20260218_101725_Email__Your_OTP_is_890701.md
+2026-02-18 10:27:59,458 [ai_skills.reasoning_engine] INFO: Moved processed task to: D:\AI_Employee\AI_Employee_vault\Done\20260218_101725_Email__Your_OTP_is_890701.md
+2026-02-18 10:27:59,459 [ai_skills.reasoning_engine] INFO: Processing task: 20260218_101725_Email__You_need_to_fix_some_issues_before_your_site_is_ready
+2026-02-18 10:28:51,534 [ai_skills.reasoning_engine] INFO: Plan created: PLAN_20260218_101725_Email__You_need_to_fix_some_issues_before_your_site_is_ready.md
+2026-02-18 10:28:51,535 [ai_skills.reasoning_engine] INFO: Moved processed task to: D:\AI_Employee\AI_Employee_vault\Done\20260218_101725_Email__You_need_to_fix_some_issues_before_your_site_is_ready.md
+2026-02-18 10:28:51,536 [ai_skills.reasoning_engine] INFO: Processing task: 20260218_101725_Email___GitHub__Sudo_email_verification_code
+2026-02-18 10:29:35,434 [ai_skills.reasoning_engine] INFO: Plan created: PLAN_20260218_101725_Email___GitHub__Sudo_email_verification_code.md
+2026-02-18 10:29:35,435 [ai_skills.reasoning_engine] INFO: Moved processed task to: D:\AI_Employee\AI_Employee_vault\Done\20260218_101725_Email___GitHub__Sudo_email_verification_code.md
+2026-02-18 10:29:35,436 [ai_skills.reasoning_engine] INFO: Processing task: 20260218_101725_Email___IMPORTANT__MIT_Deep_Learning_2026
+2026-02-18 10:30:31,903 [ai_skills.reasoning_engine] INFO: Plan created: PLAN_20260218_101725_Email___IMPORTANT__MIT_Deep_Learning_2026.md
+2026-02-18 10:30:31,904 [ai_skills.reasoning_engine] INFO: Moved processed task to: D:\AI_Employee\AI_Employee_vault\Done\20260218_101725_Email___IMPORTANT__MIT_Deep_Learning_2026.md
+2026-02-18 10:30:31,907 [scheduler] INFO: Processed 10 task(s) into plans
+2026-02-18 10:33:31,744 [watcher.gmail] INFO: Found 1 new important email(s)
+2026-02-18 10:33:31,747 [watcher.gmail] INFO: Created action file: 20260218_103331_Email__Website_creation.md
+2026-02-18 10:35:32,110 [ai_skills.reasoning_engine] INFO: Processing task: 20260218_103331_Email__Website_creation
+2026-02-18 10:36:34,135 [ai_skills.reasoning_engine] INFO: Plan created: PLAN_20260218_103331_Email__Website_creation.md
+2026-02-18 10:36:34,136 [ai_skills.reasoning_engine] INFO: Moved processed task to: D:\AI_Employee\AI_Employee_vault\Done\20260218_103331_Email__Website_creation.md
+2026-02-18 10:36:34,138 [scheduler] INFO: Processed 1 task(s) into plans
+2026-02-18 11:36:40,824 [approval_watcher] INFO: Executing approved action: APPROVAL_20260218_103331_Email__Website_creation.md (type=draft_email)
+2026-02-18 11:36:40,826 [approval_watcher] INFO: Action 'draft_email' requires MCP server 'email-mcp' — ensuring it's running
+2026-02-18 11:36:40,848 [mcp_manager] INFO: Started MCP server 'email-mcp' (PID 8004)
+2026-02-18 11:37:40,991 [approval_watcher] ERROR: Failed to execute email action
+Traceback (most recent call last):
+  File "D:\AI_Employee\AI_Employee_vault\approval_watcher.py", line 129, in _execute_email_action
+    
+    
+    ...<3 lines>...
+        action_type = meta.get("type", "draft_email")
+        ^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 556, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1222, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1665, in _communicate
+    raise TimeoutExpired(self.args, orig_timeout)
+subprocess.TimeoutExpired: Command '['claude', '--print', '-p', "Use the draft_email tool to draft email.\nTo: tanveerahmed986@gmail.com\nSubject: Re: Website creation\nBody:\nHi Tanveer,\n\nThank you for reaching out! I'd be happy to discuss building an ecommerce website for your ladies purse business.\n\nTo get started, I'd like to understand your requirements better. Could you please share the following details:\n\n1. How many products do you currently have in your catalog?\n2. Do you have product images and descriptions ready?\n3. Do you have any preferred design style or reference websites you like?\n4. What payment methods would you like to accept?\n5. Do you need any specific features such as inventory management, order tracking, or customer accounts?\n6. What is your approximate budget and timeline for this project?\n\nOnce I have a better understanding of your needs, I can put together a proposal with pricing and delivery timeline.\n\nLooking forward to hearing from you.\n\nBest regards"]' timed out after 60 seconds
+2026-02-18 11:37:41,045 [approval_watcher] ERROR: Error executing approved file: APPROVAL_20260218_103331_Email__Website_creation.md
+Traceback (most recent call last):
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\shutil.py", line 856, in move
+    os.rename(src, real_dst)
+    ~~~~~~~~~^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'D:\\AI_Employee\\AI_Employee_vault\\Approved\\APPROVAL_20260218_103331_Email__Website_creation.md' -> 'D:\\AI_Employee\\AI_Employee_vault\\Done\\APPROVAL_20260218_103331_Email__Website_creation.md'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\AI_Employee\AI_Employee_vault\approval_watcher.py", line 158, in check_for_updates
+    f"YOUR PREVIOUS DRAFT:\n{current_body}\n\n"
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI_Employee\AI_Employee_vault\approval_watcher.py", line 99, in _execute_action
+    success = self._execute_linkedin_post(content)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\shutil.py", line 876, in move
+    copy_function(src, real_dst)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\shutil.py", line 453, in copy2
+    _winapi.CopyFile2(src_, dst_, flags)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2026-02-18 11:43:10,858 [mcp_manager] INFO: Auto-stopping idle MCP server 'email-mcp' (idle > 300s)
+2026-02-18 11:43:10,858 [mcp_manager] INFO: Stopping MCP server 'email-mcp' (PID 8004)
+2026-02-18 11:43:10,879 [mcp_manager] INFO: MCP server 'email-mcp' stopped
+2026-02-24 22:41:36,717 [googleapiclient.discovery_cache] INFO: file_cache is only supported with oauth2client<4.0.0
+2026-02-24 22:54:44,515 [orchestrator] INFO: ==================================================
+2026-02-24 22:54:44,515 [orchestrator] INFO:   AI Employee Orchestrator — Silver Tier (Phase 1: Gmail)
+2026-02-24 22:54:44,515 [orchestrator] INFO:   DRY_RUN=False  ENABLED_WATCHERS=['inbox', 'gmail', 'approval']
+2026-02-24 22:54:44,516 [orchestrator] INFO: ==================================================
+2026-02-24 22:54:44,516 [mcp_manager] INFO: Loaded 1 MCP server(s) from settings: ['email-mcp']
+2026-02-24 22:54:44,516 [orchestrator] INFO: MCP Manager initialized — registered servers: ['email-mcp']
+2026-02-24 22:54:44,518 [orchestrator] INFO: Launched thread: watcher-InboxWatcher
+2026-02-24 22:54:44,518 [orchestrator] INFO: Starting inbox watcher
+2026-02-24 22:54:44,518 [orchestrator] INFO: Launched thread: watcher-GmailWatcher
+2026-02-24 22:54:44,518 [orchestrator] INFO: Starting gmail watcher
+2026-02-24 22:54:44,519 [watcher.inbox] INFO: inbox watcher starting (interval=5s)
+2026-02-24 22:54:44,519 [watcher.gmail] INFO: gmail watcher starting (interval=60s)
+2026-02-24 22:54:44,519 [orchestrator] INFO: Launched thread: watcher-ApprovalWatcher
+2026-02-24 22:54:44,519 [orchestrator] INFO: Starting approval watcher
+2026-02-24 22:54:44,520 [scheduler] INFO: Scheduler starting
+2026-02-24 22:54:44,520 [watcher.approval] INFO: approval watcher starting (interval=10s)
+2026-02-24 22:54:44,520 [orchestrator] INFO: Launched thread: scheduler
+2026-02-24 22:54:44,520 [scheduler] INFO: Scheduled: briefing@08:00, linkedin@10:00 weekdays, processing every 5 min
+2026-02-24 22:54:44,521 [orchestrator] INFO: Today's briefing already exists: briefing_20260224.md
+2026-02-24 22:54:44,521 [orchestrator] INFO: All watchers and scheduler running. Press Ctrl+C to stop.
+2026-02-24 22:54:44,524 [googleapiclient.discovery_cache] INFO: file_cache is only supported with oauth2client<4.0.0
+2026-02-24 22:54:48,331 [watcher.gmail] INFO: Found 6 new important email(s)
+2026-02-24 22:54:48,333 [watcher.gmail] INFO: Created action file: 20260224_225448_Email__Cerebral_Valley___Week_of_February_23rd__.md
+2026-02-24 22:54:48,335 [watcher.gmail] INFO: Created action file: 20260224_225448_Email__Your_Video_is_Ready_.md
+2026-02-24 22:54:48,337 [watcher.gmail] INFO: Created action file: 20260224_225448_Email__Create_your_first_high-quality_video__walkthrough_ins.md
+2026-02-24 22:54:48,340 [watcher.gmail] INFO: Created action file: 20260224_225448_Email__Build_your_new_website_in_a_few_simple_steps.md
+2026-02-24 22:54:48,342 [watcher.gmail] INFO: Created action file: 20260224_225448_Email__You_did_it__Your_first_video_is_complete_.md
+2026-02-24 22:54:48,345 [watcher.gmail] INFO: Created action file: 20260224_225448_Email__Create_a_high-quality_avatar_Here_s_how_.md
+2026-02-24 22:59:44,679 [ai_skills.reasoning_engine] INFO: Sending email to Claude for reasoning: 20260224_225448_Email__Build_your_new_website_in_a_few_simple_steps
+2026-02-24 23:00:02,377 [ai_skills.reasoning_engine] INFO: Moved to Done: 20260224_230002_20260224_225448_Email__Build_your_new_website_in_a_few_simple_steps.md
+2026-02-24 23:00:02,381 [ai_skills.reasoning_engine] INFO: Dashboard updated: pending=5, approval=0, done_today=7
+2026-02-24 23:00:02,382 [ai_skills.reasoning_engine] INFO: Sending email to Claude for reasoning: 20260224_225448_Email__Cerebral_Valley___Week_of_February_23rd__
+2026-02-24 23:00:20,059 [ai_skills.reasoning_engine] INFO: Moved to Done: 20260224_230020_20260224_225448_Email__Cerebral_Valley___Week_of_February_23rd__.md
+2026-02-24 23:00:20,064 [ai_skills.reasoning_engine] INFO: Dashboard updated: pending=4, approval=0, done_today=8
+2026-02-24 23:00:20,064 [ai_skills.reasoning_engine] INFO: Sending email to Claude for reasoning: 20260224_225448_Email__Create_a_high-quality_avatar_Here_s_how_
+2026-02-24 23:00:36,245 [ai_skills.reasoning_engine] INFO: Moved to Done: 20260224_230036_20260224_225448_Email__Create_a_high-quality_avatar_Here_s_how_.md
+2026-02-24 23:00:36,249 [ai_skills.reasoning_engine] INFO: Dashboard updated: pending=3, approval=0, done_today=9
+2026-02-24 23:00:36,249 [ai_skills.reasoning_engine] INFO: Sending email to Claude for reasoning: 20260224_225448_Email__Create_your_first_high-quality_video__walkthrough_ins
+2026-02-24 23:00:51,413 [ai_skills.reasoning_engine] INFO: Moved to Done: 20260224_230051_20260224_225448_Email__Create_your_first_high-quality_video__walkthrough_ins.md
+2026-02-24 23:00:51,417 [ai_skills.reasoning_engine] INFO: Dashboard updated: pending=2, approval=0, done_today=10
+2026-02-24 23:00:51,418 [ai_skills.reasoning_engine] INFO: Sending email to Claude for reasoning: 20260224_225448_Email__You_did_it__Your_first_video_is_complete_
+2026-02-24 23:01:07,657 [ai_skills.reasoning_engine] WARNING: Claude CLI returned code 3: ============================================================
+Bun Canary v1.3.9-canary.51 (d5628db2) Windows x64 (baseline)
+Windows v.win11_dt
+CPU: sse42 avx avx2
+Args: "claude" "--print" "-p" "You are Atlas, an AI Employee assistant. Analyze this email and decide what to do.\n\nCLASSIFICATION RULES:\n1. ONLY classify as 'informational' + 'archive' if the email is a generic m"...
+Features: Bun.stderr(2) Bun.stdin(2) Bun.stdout(2) fetch(13) jsc spawn(11) standalone_executable yaml_parse(19) 
+Built
+2026-02-24 23:01:07,659 [ai_skills.reasoning_engine] INFO: Moved to Done: 20260224_230107_20260224_225448_Email__You_did_it__Your_first_video_is_complete_.md
+2026-02-24 23:01:07,664 [ai_skills.reasoning_engine] INFO: Dashboard updated: pending=1, approval=0, done_today=11
+2026-02-24 23:01:07,664 [ai_skills.reasoning_engine] INFO: Sending email to Claude for reasoning: 20260224_225448_Email__Your_Video_is_Ready_
+2026-02-24 23:01:22,893 [ai_skills.reasoning_engine] INFO: Moved to Done: 20260224_230122_20260224_225448_Email__Your_Video_is_Ready_.md
+2026-02-24 23:01:22,897 [ai_skills.reasoning_engine] INFO: Dashboard updated: pending=0, approval=0, done_today=12
+2026-02-24 23:08:15,768 [googleapiclient.discovery_cache] INFO: file_cache is only supported with oauth2client<4.0.0
+2026-02-24 23:11:45,570 [orchestrator] INFO: ==================================================
+2026-02-24 23:11:45,570 [orchestrator] INFO:   AI Employee Orchestrator — Silver Tier (Phase 1: Gmail)
+2026-02-24 23:11:45,570 [orchestrator] INFO:   DRY_RUN=False  ENABLED_WATCHERS=['inbox', 'gmail', 'approval']
+2026-02-24 23:11:45,570 [orchestrator] INFO: ==================================================
+2026-02-24 23:11:45,570 [mcp_manager] INFO: Loaded 1 MCP server(s) from settings: ['email-mcp']
+2026-02-24 23:11:45,570 [orchestrator] INFO: MCP Manager initialized — registered servers: ['email-mcp']
+2026-02-24 23:11:45,571 [orchestrator] INFO: Launched thread: watcher-InboxWatcher
+2026-02-24 23:11:45,572 [orchestrator] INFO: Launched thread: watcher-GmailWatcher
+2026-02-24 23:11:45,572 [orchestrator] INFO: Starting inbox watcher
+2026-02-24 23:11:45,572 [orchestrator] INFO: Launched thread: watcher-ApprovalWatcher
+2026-02-24 23:11:45,573 [orchestrator] INFO: Starting approval watcher
+2026-02-24 23:11:45,573 [watcher.inbox] INFO: inbox watcher starting (interval=5s)
+2026-02-24 23:11:45,573 [watcher.approval] INFO: approval watcher starting (interval=10s)
+2026-02-24 23:11:45,573 [scheduler] INFO: Scheduler starting
+2026-02-24 23:11:45,573 [orchestrator] INFO: Launched thread: scheduler
+2026-02-24 23:11:45,574 [scheduler] INFO: Scheduled: briefing@08:00, linkedin@10:00 weekdays, processing every 5 min
+2026-02-24 23:11:45,574 [orchestrator] INFO: Today's briefing already exists: briefing_20260224.md
+2026-02-24 23:11:45,574 [orchestrator] INFO: All watchers and scheduler running. Press Ctrl+C to stop.
+2026-02-24 23:11:45,586 [orchestrator] INFO: Starting gmail watcher
+2026-02-24 23:11:45,586 [watcher.gmail] INFO: gmail watcher starting (interval=60s)
+2026-02-24 23:11:45,591 [googleapiclient.discovery_cache] INFO: file_cache is only supported with oauth2client<4.0.0
+2026-02-24 23:21:23,549 [ai_skills.reasoning_engine] INFO: Sending email to Claude for reasoning: test_live_email
+2026-02-24 23:21:40,135 [ai_skills.reasoning_engine] INFO: Created approval file: APPROVAL_test_live_email.md
+2026-02-24 23:21:40,136 [ai_skills.reasoning_engine] INFO: Moved to Done: 20260224_232140_test_live_email.md
+2026-02-24 23:21:40,140 [ai_skills.reasoning_engine] INFO: Dashboard updated: pending=0, approval=1, done_today=7
+2026-02-24 23:21:40,141 [scheduler] INFO: Processed 1 task(s) into plans
+2026-02-24 23:23:14,748 [approval_watcher] INFO: Status changed to REVISE: APPROVAL_test_live_email.md
+2026-02-24 23:23:14,749 [approval_watcher] INFO: Revising draft with Claude: APPROVAL_test_live_email.md
+2026-02-24 23:23:15,663 [approval_watcher] INFO: Status changed to REVISE: APPROVAL_test_live_email.md
+2026-02-24 23:23:15,665 [approval_watcher] INFO: Revising draft with Claude: APPROVAL_test_live_email.md
+2026-02-24 23:23:29,129 [approval_watcher] INFO: Revised draft saved: APPROVAL_test_live_email.md (revision 1)
+2026-02-24 23:23:29,134 [approval_watcher] INFO: Dashboard updated
+2026-02-24 23:23:32,049 [approval_watcher] INFO: Revised draft saved: APPROVAL_test_live_email.md (revision 1)
+2026-02-24 23:23:32,053 [approval_watcher] INFO: Dashboard updated
+2026-02-24 23:24:12,060 [approval_watcher] INFO: Status changed to REVISE: APPROVAL_test_live_email.md
+2026-02-24 23:24:12,063 [approval_watcher] INFO: Revising draft with Claude: APPROVAL_test_live_email.md
+2026-02-24 23:24:19,145 [approval_watcher] INFO: Status changed to REVISE: APPROVAL_test_live_email.md
+2026-02-24 23:24:19,146 [approval_watcher] INFO: Revising draft with Claude: APPROVAL_test_live_email.md
+2026-02-24 23:24:25,971 [approval_watcher] INFO: Revised draft saved: APPROVAL_test_live_email.md (revision 2)
+2026-02-24 23:24:25,973 [approval_watcher] INFO: Dashboard updated
+2026-02-24 23:24:31,032 [approval_watcher] INFO: Revised draft saved: APPROVAL_test_live_email.md (revision 2)
+2026-02-24 23:24:31,036 [approval_watcher] INFO: Dashboard updated
+2026-02-24 23:25:05,982 [approval_watcher] INFO: Status changed to REVISE: APPROVAL_test_live_email.md
+2026-02-24 23:25:05,984 [approval_watcher] INFO: Revising draft with Claude: APPROVAL_test_live_email.md
+2026-02-24 23:25:11,041 [approval_watcher] INFO: Status changed to REVISE: APPROVAL_test_live_email.md
+2026-02-24 23:25:11,042 [approval_watcher] INFO: Revising draft with Claude: APPROVAL_test_live_email.md
+2026-02-24 23:25:19,852 [approval_watcher] INFO: Revised draft saved: APPROVAL_test_live_email.md (revision 3)
+2026-02-24 23:25:19,855 [approval_watcher] INFO: Dashboard updated
+2026-02-24 23:25:21,345 [approval_watcher] INFO: Revised draft saved: APPROVAL_test_live_email.md (revision 3)
+2026-02-24 23:25:21,348 [approval_watcher] INFO: Dashboard updated
+2026-02-25 00:04:54,342 [orchestrator] INFO: Orchestrator shutting down — stopping MCP servers...
+2026-02-25 00:04:54,344 [mcp_manager] INFO: All MCP servers stopped
+2026-02-25 00:04:54,345 [orchestrator] INFO: Orchestrator stopped.
+2026-02-25 00:05:16,887 [orchestrator] INFO: ==================================================
+2026-02-25 00:05:16,887 [orchestrator] INFO:   AI Employee Orchestrator — Silver Tier (Phase 1: Gmail)
+2026-02-25 00:05:16,887 [orchestrator] INFO:   DRY_RUN=False  ENABLED_WATCHERS=['inbox', 'gmail', 'approval', 'whatsapp']
+2026-02-25 00:05:16,887 [orchestrator] INFO: ==================================================
+2026-02-25 00:05:16,889 [mcp_manager] INFO: Loaded 1 MCP server(s) from settings: ['email-mcp']
+2026-02-25 00:05:16,890 [orchestrator] INFO: MCP Manager initialized — registered servers: ['email-mcp']
+2026-02-25 00:05:16,891 [orchestrator] INFO: Launched thread: watcher-InboxWatcher
+2026-02-25 00:05:16,891 [orchestrator] INFO: Starting inbox watcher
+2026-02-25 00:05:16,892 [orchestrator] INFO: Launched thread: watcher-GmailWatcher
+2026-02-25 00:05:16,892 [watcher.inbox] INFO: inbox watcher starting (interval=5s)
+2026-02-25 00:05:16,893 [orchestrator] INFO: Launched thread: watcher-ApprovalWatcher
+2026-02-25 00:05:16,893 [orchestrator] INFO: Starting approval watcher
+2026-02-25 00:05:16,893 [orchestrator] INFO: Launched thread: watcher-WhatsAppWatcher
+2026-02-25 00:05:16,893 [watcher.approval] INFO: approval watcher starting (interval=10s)
+2026-02-25 00:05:16,893 [orchestrator] INFO: Starting whatsapp watcher
+2026-02-25 00:05:16,893 [scheduler] INFO: Scheduler starting
+2026-02-25 00:05:16,894 [orchestrator] INFO: Launched thread: scheduler
+2026-02-25 00:05:16,894 [orchestrator] INFO: Starting gmail watcher
+2026-02-25 00:05:16,894 [watcher.whatsapp] INFO: whatsapp watcher starting (interval=30s)
+2026-02-25 00:05:16,894 [scheduler] INFO: Scheduled: briefing@08:00, linkedin@10:00 weekdays, processing every 5 min
+2026-02-25 00:05:16,895 [orchestrator] INFO: No briefing for today — generating startup briefing
+2026-02-25 00:05:16,895 [watcher.gmail] INFO: gmail watcher starting (interval=60s)
+2026-02-25 00:05:16,895 [scheduler] INFO: Running daily briefing
+2026-02-25 00:05:16,903 [scheduler] INFO: Daily briefing saved: briefing_20260225.md
+2026-02-25 00:05:16,904 [orchestrator] INFO: All watchers and scheduler running. Press Ctrl+C to stop.
+2026-02-25 00:05:17,947 [googleapiclient.discovery_cache] INFO: file_cache is only supported with oauth2client<4.0.0
+2026-02-25 00:05:23,517 [watchers.whatsapp_watcher] INFO: WhatsApp Web page loaded (scan QR if first run)

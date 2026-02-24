@@ -1,6 +1,30 @@
+# Secrets & credentials
 .env
-credentials.json
-__pycache__/
-.obsidian/
 *.secret
 *.token
+token.json
+credentials.json
+gmail_credentials.json
+Secrets/
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# Node
+node_modules/
+
+# Obsidian
+.obsidian/
+
+# Windows artifacts
+nul
+~$*
+
+# Claude internal
+.claude/
+
+# Temp files
+Silver_Tier_Guide.md
+*.tmp
